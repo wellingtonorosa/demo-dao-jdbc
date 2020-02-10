@@ -30,6 +30,11 @@ public class Program {
     	System.out.println(obj);
     }
 	
+    System.out.println("\n---- Teste 4 - seller Insert----");
+    
+    Seller newseller = new Seller(null,"well","wel@gmail.com",new Date(),4000.00,department);
+    sellerDao.insert(newseller);
+    System.out.println("Novo id = " + newseller.getId());
 	}
 
 }
