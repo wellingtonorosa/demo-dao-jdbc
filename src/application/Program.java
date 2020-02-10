@@ -23,6 +23,13 @@ public class Program {
     for (Seller obj : list) {
     	System.out.println(obj);
     }
+    
+	System.out.println("\n---- Teste 3 - seller findAll----");
+	list = sellerDao.FindAll();
+    for (Seller obj : list) {
+    	System.out.println(obj);
+    }
+	
 	}
 
 }
