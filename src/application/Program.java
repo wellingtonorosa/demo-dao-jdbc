@@ -42,6 +42,8 @@ public class Program {
     seller.setName("MArta ferreira");
     sellerDao.update(seller);
     System.out.println("Update completo");
+    System.out.println("\n---- Teste 6 - seller delete----");
+    sellerDao.deleteById(12);
     
 	}
 
